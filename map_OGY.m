@@ -1,0 +1,31 @@
+function [p_new,gamma]=map_OGY(p,t,delta,x,Q,kh,stint,w1,w2)
+% Function for mapping with intervations under the OGY method
+
+[target,c,a,u,m,M,ep,d1,d2,b,v,h]=param(x);
+if p>M
+    p_new=M;
+    gamma=0;
+elseif p<m
+    p_new=m;
+    gamma=0;
+else
+    if t<=stint
+        q_t=0;
+    else
+        if p>=Q(1) && p<=Q(2)
+            q_t=kh*(target-p)/c;
+        else
+            q_t=0;
+        end
+    end
+    alpha=a*(u-p)/((p-m+ep)^d1*(M+ep-p)^d2)+h*w1;
+    beta=b*(p-v)+h*w2;
+    gamma=q_t; 
+    p_new=p+c*(alpha+beta+gamma+delta);
+end
+
+if p_new>1
+    p_new=1;
+elseif p_new<0
+    p_new=0;
+end
