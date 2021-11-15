@@ -1,5 +1,5 @@
 # 2I-WASDBN
-Implementation of a 3-layer feed-forward 2-input WASD-based neuronet (2I-WASDBN) model for controlling chaos in stochastic exchange rate dynamics (SERD) under central bank intervention.\
+Implementation of a 3-layer feed-forward 2-input WASD-based neuronet (2I-WASDBN) model for controlling chaos in stochastic exchange rate dynamics (SERD) under central bank intervention.
 The purpose of this package is to examine a machine learning approach as a control chaos method in order to stabilize the SERD model, and a comparison between the
 machine learning approach and the DFC and OGY methods is offered.
 By considering this problem's approach through neuronet and by using the weight direct determination (WDD) method, the novel WASD algorithm handles the fitting and validation of the 2I-WASDBN model throughout the training process by employing a power activation function.\
