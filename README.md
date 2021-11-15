@@ -3,7 +3,7 @@ Implementation of a 3-layer feed-forward 2-input WASD-based neuronet (2I-WASDBN)
 The purpose of this package is to examine a machine learning approach as a control chaos method in order to stabilize the SERD model, and a comparison between the
 machine learning approach and the DFC and OGY methods is offered.
 By considering this problem's approach through neuronet and by using the weight direct determination (WDD) method, the novel WASD algorithm handles the fitting and validation of the 2I-WASDBN model throughout the training process by employing a power activation function.\
-The main articles used are the followings:
+The main article used is the following:
 *	S.D.Mourtas, V.N.Katsikis, E.Drakonakis, S.Kotsios, "Stabilization of Stochastic Exchange Rate Dynamics under Central Bank Intervention using a Weight Direct Determination Neuronet", (submitted)
 
 # M-files Description
