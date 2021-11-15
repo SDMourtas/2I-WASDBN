@@ -8,15 +8,24 @@ The main articles used are the followings:
 
 # M-files Description
 *	Main_2I_WASDBN.m: the main function
-*	problem.m: input data and parameters of the MI-FUZWASDN
+*	problem.m: input data and parameters of the 2I-WASDBN
 *	Problem_figures.m: figures illustrating the problem's findings
 *	WASD.m: function for finding the optimal number of hidden-layer neurons, along with the optimal activation function power at each hidden-layer neuron
 *	Qmatrix.m: function for calculating the matrix Q
-*	predictN.m: function for predicting
+*	predictNN.m: function for predicting
 *	error_pred.m: function for calculating the MAE, RMSE and R-squared of the prediction
 *	trainSVM.mat: neural network model under SVM Fine Gaussian method
 *	trainEGPR.mat: neural network model under Exponential GPR method
 *	trainEBT.mat: neural network model under Ensemble Bagged Trees method
+*	find_k.m: function for calculating the reaction coefficient based on DFC method
+*	find_Q_kh: function for calculating the reaction coefficient based on OGY method
+*	map_2I_WASDBN.m: function for mapping with intervations under the 2I-WASDBN method
+*	map_DFC.m: function for mapping with intervations under the DFC method
+*	map_no_inter.m: function for mapping with no intervations
+*	map_OGY.m: function for mapping with intervations under the OGY method
+*	no_inter.m: function for the SERD model simulation with no intervations
+*	param.m: function for setting parameters value in the SERD model
+*	simul.m: function for the market simulation under the SERD model
 
 # Installation
 *	Unzip the file you just downloaded and copy the 2I-WASDBN directory to a location,e.g.,/my-directory/
@@ -29,6 +38,7 @@ After running the 'Main_2I_WASDBN.m file, the package outputs are the following:
 *	The optimal activation function power of each hidden-layer neuron.
 *	The prediction, simulation and statistics of the testing samples.
 *	The graphic illustration of the testing and predicting performance.
+*	The market simulation under the SERD model.
 
 # Environment
 The 2I-WASDBN kit has been tested in Matlab 2018b on OS: Windows 10 64-bit.
