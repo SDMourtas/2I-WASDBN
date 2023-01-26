@@ -4,7 +4,7 @@ The purpose of this package is to examine a machine learning approach as a contr
 machine learning approach and the DFC and OGY methods is offered.
 By considering this problem's approach through neuronet and by using the weight direct determination (WDD) method, the novel WASD algorithm handles the fitting and validation of the 2I-WASDBN model throughout the training process by employing a power activation function.\
 The main article used is the following:
-*	S.D.Mourtas, V.N.Katsikis, E.Drakonakis, S.Kotsios, "Stabilization of Stochastic Exchange Rate Dynamics under Central Bank Intervention using a Weight Direct Determination Neuronet", (submitted)
+*	S.D.Mourtas, V.N.Katsikis, E.Drakonakis, S.Kotsios, "Stabilization of Stochastic Exchange Rate Dynamics under Central Bank Intervention using a Weight Direct Determination Neuronet", International Journal of Information Technology and Decision Making, (2022)
 
 # M-files Description
 *	Main_2I_WASDBN.m: the main function
