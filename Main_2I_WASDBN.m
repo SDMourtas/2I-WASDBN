@@ -15,7 +15,8 @@
 %   Main paper: S.D.Mourtas, V.N.Katsikis, E.Drakonakis, S.Kotsios  %
 %               "Stabilization of Stochastic Exchange Rate Dynamics %
 %               under Central Bank Intervention using a Weight      %
-%               Direct Determination Neuronet",(submitted)          %
+%               Direct Determination Neuronet",International Journal%
+%               of Information Technology and Decision Making (2022)%
 %                                                                   %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
