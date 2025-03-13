@@ -1,7 +1,7 @@
 function E=error_pred(X,XEGPR,XEBT,XSVM,Y)
 % Function for calculating the models statistics
 
-yh=mean(X); 
+yh=mean(Y); 
 SStot=sum((X-yh).^2);
 SSres=sum((X-Y).^2);
 R2=1-SSres/SStot; % R-squared
